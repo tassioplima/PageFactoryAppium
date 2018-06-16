@@ -1,0 +1,86 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Teste formulario",
+        "description": "",
+        "id": "realizar-ação-no-formulário;teste-formulario;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "que acessei o formulario",
+            "match": {},
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "inserir o \"Tassio\" no formulario",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "salvei os dados",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "será validado o nome \"Tassio\" no formulario",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@TESTELOGIN002"
+          },
+          {
+            "line": 3,
+            "name": "@Funcionalidade"
+          }
+        ]
+      }
+    ],
+    "name": "Realizar ação no formulário",
+    "description": "",
+    "id": "realizar-ação-no-formulário",
+    "keyword": "Funcionalidade",
+    "uri": "teste-formulario.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@Funcionalidade"
+      }
+    ]
+  }
+]
